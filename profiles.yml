@@ -1,0 +1,12 @@
+ist722dbt:
+  outputs:
+    dev:
+      type: snowflake
+      account: ic29761.west-us-2.azure  # Replace with your Snowflake account
+      user: amarquardt          # Replace with your Snowflake username
+      password: Shp808bhs       # Replace with your Snowflake password
+      role: ACCOUNTADMIN        # Replace with your role
+      database: DBT_DEMO        # Set to DBT_DEMO
+      warehouse: COMPUTE_WH     # Replace with your Snowflake warehouse
+      schema: PUBLIC            # Replace with your schema
+  target: dev
