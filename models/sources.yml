@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: A sample data source for the jaffle_shop project.
+    tables:
+      - name: customers
+        description: One record per customer.
+      - name: orders
+        description: One record per order. Includes cancelled and deleted orders.
+
+
