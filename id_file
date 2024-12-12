@@ -1,0 +1,6 @@
+SELECT
+    order_id AS id,  -- Alias the correct column to 'id'
+    user_id,
+    order_date,
+    status
+FROM {{ source('raw', 'orders') }};
